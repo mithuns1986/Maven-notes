@@ -2,7 +2,13 @@
 Maven 3 notes with IntelliJ IDEA 14
 
 # Contents
-[Struct of each project](#Structure-of-each-project )
+1. [What?](what)
+  1. (Structure of Maven)[structure-of-maven]
+2. [How?](how)
+  1. [Struct of each project](#structure-of-each-project)
+3. [Opening Maven projects in IntelliJ IDEA](#opening-maven-projects-in-intellij-idea)
+  1. [Traditional method](#traditional-method)
+  2. [Using Maven's pom.xml](#)
 
 ## What?
 An introduction to maven can be found on their website [here](http://maven.apache.org/what-is-maven.html).
@@ -76,3 +82,15 @@ project_folder
 </pre>
 
 ## Opening Maven projects in IntelliJ IDEA
+There are two ways to open a project in IntelliJ (when using Maven).
+
+### Traditional method
+1. Launch IntelliJ IDEA 14 application and click on `Open`.
+2. This will launch a file explorer, browse to the `project_folder` and click on `choose`.
+
+> Note: This method will only open in IntelliJ IDEA environment.
+
+### Using Maven's `pom.xml`
+1. Launch IntelliJ IDEA 14 application and click on `Import Project`.
+2. This will open an import file explorer, browse to `pom.xml` and click on 'OK'
+3. This will import all the required dependancies and create all the folders required to run the project.
