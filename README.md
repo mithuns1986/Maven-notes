@@ -9,6 +9,7 @@ Maven 3 notes with IntelliJ IDEA 14
 3. [Opening Maven projects in IntelliJ IDEA](#opening-maven-projects-in-intellij-idea)
   1. [Traditional method](#traditional-method)
   2. [Using Maven's pom.xml](#using-mavens-pomxml)
+4. Structure of this tutorial
 
 ## What?
 An introduction to maven can be found on their website [here](http://maven.apache.org/what-is-maven.html).
@@ -94,3 +95,7 @@ There are two ways to open a project in IntelliJ (when using Maven).
 1. Launch IntelliJ IDEA 14 application and click on `Import Project`.
 2. This will open an import file explorer, browse to `pom.xml` and click on 'OK'
 3. This will import all the required dependancies and create all the folders required to run the project.
+
+## Structure of this tutorial
+
+1. [1_HelloWorld](https://github.com/akshaybabloo/Maven-notes/tree/master/1_HelloWorld) - is a basic java application using Maven.
