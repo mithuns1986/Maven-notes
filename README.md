@@ -3,12 +3,12 @@ Maven 3 notes with IntelliJ IDEA 14
 
 # Contents
 1. [What?](what)
-  1. (Structure of Maven)[structure-of-maven]
+  1. (Structure of Maven)[#structure-of-maven]
 2. [How?](how)
   1. [Struct of each project](#structure-of-each-project)
 3. [Opening Maven projects in IntelliJ IDEA](#opening-maven-projects-in-intellij-idea)
   1. [Traditional method](#traditional-method)
-  2. [Using Maven's pom.xml](#)
+  2. [Using Maven's pom.xml](#using-mavens-pomxml)
 
 ## What?
 An introduction to maven can be found on their website [here](http://maven.apache.org/what-is-maven.html).
