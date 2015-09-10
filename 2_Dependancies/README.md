@@ -43,16 +43,15 @@ To add external libraries (dependencies) you would have to search them in maven 
 </dependency>
 ```
 3. Next open `pom.xml` file from the project and type the following xml code
-
-<pre>
+```
 <dependencies>
 .
 </dependencies>
-</pre>
+```
 
 inside `<project>...</project>`
 3. Then paste the copied xml code inside `<dependencies>` tag. For example
-<pre>
+```
 <dependencies>
     <dependency>
         <groupId>joda-time</groupId>
@@ -60,4 +59,4 @@ inside `<project>...</project>`
         <version>2.2</version>
     </dependency>
 </dependencies>
-</pre>
+```
