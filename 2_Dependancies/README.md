@@ -42,13 +42,12 @@ To add external libraries (dependencies) you would have to search them in maven 
     <version>2.2</version>
 </dependency>
 ```
-3. Next open `pom.xml` file from the project and type the following xml code
+2. Next open `pom.xml` file from the project and type the following xml code
 ```
 <dependencies>
 .
 </dependencies>
 ```
-
 inside `<project>...</project>`
 3. Then paste the copied xml code inside `<dependencies>` tag. For example
 ```
