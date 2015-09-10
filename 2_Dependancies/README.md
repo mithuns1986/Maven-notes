@@ -33,8 +33,8 @@
 
 To add external libraries (dependencies) you would have to search them in maven repositories, best place to search dependencies can be found [here](http://mvnrepository.com/) and [here](http://search.maven.org/).
 
-1. Search for the required dependency.
-2. The copy the dependency xml code. For example
+* Search for the required dependency.
+* The copy the dependency xml code. For example
 ```
 <dependency>
     <groupId>joda-time</groupId>
@@ -42,14 +42,14 @@ To add external libraries (dependencies) you would have to search them in maven 
     <version>2.2</version>
 </dependency>
 ```
-2. Next open `pom.xml` file from the project and type the following xml code
+* Next open `pom.xml` file from the project and type the following xml code
 ```
 <dependencies>
 .
 </dependencies>
 ```
 inside `<project>...</project>`
-3. Then paste the copied xml code inside `<dependencies>` tag. For example
+* Then paste the copied xml code inside `<dependencies>` tag. For example
 ```
 <dependencies>
     <dependency>
