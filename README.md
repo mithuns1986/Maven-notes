@@ -94,7 +94,7 @@ There are two ways to open a project in IntelliJ (when using Maven).
 ### Using Maven's `pom.xml`
 1. Launch IntelliJ IDEA 14 application and click on `Import Project`.
 2. This will open an import file explorer, browse to `pom.xml` and click on 'OK'
-3. This will import all the required dependancies and create all the folders required to run the project.
+3. This will import all the required dependencies and create all the folders required to run the project.
 
 ## Structure of this tutorial
 
