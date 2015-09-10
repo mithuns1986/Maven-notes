@@ -1,5 +1,9 @@
 # Maven-notes
-Maven 3 notes with Intellij 14
+Maven 3 notes with IntelliJ IDEA 14
+
+# Contents
+[test](###Structure-of-each-project )
+
 ## What?
 An introduction to maven can be found on their website [here](http://maven.apache.org/what-is-maven.html).
 ### Structure of Maven
@@ -41,7 +45,7 @@ click on `Finish`.
 
 This will create the following structure
 
-## Structure
+### Structure of each project
 Every project created with Intellij 14 (using Maven) in this tutorial will have the following files and folder (any text below without extension is a folder).
 
 <pre>
@@ -71,4 +75,4 @@ project_folder
 `-- pom.xml
 </pre>
 
-### What next?
+## Opening Maven projects in IntelliJ IDEA
