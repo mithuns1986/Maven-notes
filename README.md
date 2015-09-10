@@ -1,5 +1,5 @@
 # Maven-notes
-Maven 3 notes with IntelliJ IDEA 14
+Maven 3 notes using IntelliJ IDEA 14
 
 # Contents
 1. [What?](#what)
