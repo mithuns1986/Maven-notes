@@ -9,7 +9,7 @@ Maven 3 notes using IntelliJ IDEA 14
 3. [Opening Maven projects in IntelliJ IDEA](#opening-maven-projects-in-intellij-idea)
   1. [Traditional method](#traditional-method)
   2. [Using Maven's pom.xml](#using-mavens-pomxml)
-4. Structure of this tutorial
+4. [Structure of this tutorial](#structure-of-this-tutorial)
 
 ## What?
 An introduction to maven can be found on their website [here](http://maven.apache.org/what-is-maven.html).
