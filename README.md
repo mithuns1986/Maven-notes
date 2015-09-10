@@ -2,7 +2,7 @@
 Maven 3 notes with IntelliJ IDEA 14
 
 # Contents
-[test](###Structure-of-each-project )
+[Struct of each project](#Structure-of-each-project )
 
 ## What?
 An introduction to maven can be found on their website [here](http://maven.apache.org/what-is-maven.html).
