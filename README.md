@@ -78,6 +78,23 @@ project_folder
 `-- pom.xml
 </pre>
 
+## Running Maven projects 
+mvn package
+
+cd target/my-app-1.0-SNAPSHOT.jar
+
+ls -l  target/my-app-1.0-SNAPSHOT.jar
+
+java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+
+vim src/main/java/com/mycompany/app/App.java
+
+java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+
+mvn package
+
+java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+
 ## Opening Maven projects in IntelliJ IDEA
 There are two ways to open a project in IntelliJ (when using Maven).
 
