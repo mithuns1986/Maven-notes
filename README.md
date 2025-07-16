@@ -40,21 +40,9 @@ project_folder
 ## How?
 To create a maven project do the following
 
-1. Click on `Create New Project`
-2. On the left side of the `New Project` window click on `Maven`, then click `Next`.
-3. This will take you to a new page enter your details. For example:
-<pre>
-GroupId: come.gollahalli.main
-ArtifactId: project_folder
-Version: 1.0-SNAPSHOT
-</pre>
-Then click on `Next`.
-4. This will take you to a different page, enter your details. For example:
-<pre>
-Project name: project_folder
-Project location: ~/some_location/project_folder
-</pre>
-click on `Finish`.
+mkdir maven-demo
+cd maven-demo/
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false
 
 This will create the following structure
 
