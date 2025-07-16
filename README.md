@@ -41,7 +41,9 @@ project_folder
 To create a maven project do the following
 
 mkdir maven-demo
+
 cd maven-demo/
+
 mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false
 
 This will create the following structure
